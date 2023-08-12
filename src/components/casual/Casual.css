@@ -1,0 +1,35 @@
+/* casual ---- */
+.casual {
+    background: black;
+    background-image: radial-gradient(rgb(24, 24, 24) 1px, transparent 0);
+    background-size: 40px 40px;
+}
+
+.casual-content {
+    margin-top: var(--margin-content-top);
+    color: rgb(255, 255, 255);
+    font-size: 4vmax;
+    font-weight: 900;
+}
+
+.casual-content span {
+    color: gold;
+}
+
+@media (max-width:900px) {
+    .casual-content {
+        font-size: 4.7vmax;
+    }
+}
+
+@media (max-width:550px) {
+    .casual-content {
+        font-size: 5vmax;
+    }
+}
+
+@media (max-width:450px) {
+    .casual-content {
+        font-size: 4vmax;
+    }
+}

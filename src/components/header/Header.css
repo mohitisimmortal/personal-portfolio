@@ -1,0 +1,57 @@
+/* header ------ */
+header {
+    position: fixed;
+    padding: 1.1rem 7%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-bottom: var(--border-1);
+    transition: backdrop-filter 0.5s ease;
+    background-color: transparent;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2vmax;
+    font-weight: 400;
+}
+
+.black-logo {
+    color: black;
+}
+
+.white-logo {
+    color: white;
+}
+
+
+@media (max-width:900px) {
+    .logo {
+        font-size: 3vmax;
+    }
+}
+
+@media (max-width:550px) {
+    .logo {
+        font-size: 3.5vmax;
+    }
+
+    header {
+        padding: 1rem 4%;
+    }
+}
+
+@media (max-width:375px) {
+    .logo {
+        font-size: 3vmax;
+    }
+}
