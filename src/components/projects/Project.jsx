@@ -35,10 +35,10 @@ function Project() {
                     </div>
                     <div className="project-content-2">
                         <div>
-                            <a href="#" className='button'>coming soon</a>
+                            <a href="https://celestialnotes.vercel.app/" className='button' target='_blank'>visit the webapp</a>
                         </div>
                         <div>
-                            {/* <a href="#" className='button'>see the code</a> */}
+                            <a href="https://github.com/last-developer/celestial-notes" className='button' target='_blank'>see the code</a>
                         </div>
                     </div>
                 </div>
