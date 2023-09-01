@@ -1,6 +1,6 @@
 /* contact ------ */
 #contact {
-    background-image: radial-gradient(rgb(139, 139, 139) 1px, transparent 0);
+    background-image: radial-gradient(rgb(201, 201, 201) 1px, transparent 0);
     background-size: 40px 40px;
 }
 
@@ -11,6 +11,7 @@
 .contact-content h2 {
     font-size: 4vmax;
     margin-bottom: 1.5rem;
+    word-break: break-all;
 }
 
 .contact-content div ul {
@@ -28,11 +29,6 @@
     transition: scale .3s ease;
 }
 
-@media (max-width:900px) {
-    .contact-content h2 {
-        font-size: 4.7vmax;
-    }
-}
 
 @media (max-width:768px) {
     .contact-content div ul li a {

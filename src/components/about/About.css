@@ -1,16 +1,18 @@
 /* about ----- */
 .about {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
     font-size: 1.5vmax;
-    background-image: radial-gradient(rgb(24, 24, 24) 1px, transparent 0);
+    background-image: radial-gradient(rgb(201, 201, 201) 1px, transparent 0);
     background-size: 40px 40px;
+    /* background-image: radial-gradient(rgb(24, 24, 24) 1px, transparent 0);
+    background-size: 40px 40px; */
+    background-color: white;
+    color: black;
 }
 
 .small-about {
     font-size: .9rem;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .large-about-1 {
@@ -20,26 +22,28 @@
 
 .large-about-1 div {
     color: gray;
+    color: black;
     margin-top: .3rem;
 }
 
 .large-about-2 {
     margin-bottom: 2rem;
     color: gray;
+    color: black;
 }
 
 .large-about-2 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: .3rem;
 }
 
 .large-about-3 {
     margin-bottom: 2rem;
-    color: gray;
+    color: black;
 }
 
 .large-about-3 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: .3rem;
 }
 
@@ -50,25 +54,26 @@
 }
 
 .large-about-3 ul li span {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .large-about-3 li::marker {
     /* Change the color of the bullet points */
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .large-about-4 {
-    color: gray;
+    color: black;
 }
 
 .large-about-4 h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: .3rem;
 }
 
 .large-about-4 span {
     color: var(--gold-color);
+    font-weight: 500;
 }
 
 

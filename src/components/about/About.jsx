@@ -4,11 +4,11 @@ import './About.css';
 function About() {
     return (
         <section className="about" id="about">
-            <div className="numbers">
+            <div className="numbers black">
                 01 <span>About me</span>
             </div>
             <div className="about-content">
-                <p className="small-about">Mohit ( last dev - studio name )</p>
+                <p className="small-about black">Mohit ( last dev - studio name )</p>
                 <div className="large-about-1">
                     Hey there! Welcome to my world of full stack web development powered by MERN Stack!
                     <br />
