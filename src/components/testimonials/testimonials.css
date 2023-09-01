@@ -1,4 +1,4 @@
-.testimonials{
+.testimonials {
     background-image: radial-gradient(rgb(201, 201, 201) 1px, transparent 0);
     background-size: 40px 40px;
 }
@@ -38,7 +38,12 @@
         flex-basis: 100%;
     }
 }
+
 @media screen and (max-width: 550px) {
+    .testimonials {
+        background-image: radial-gradient(rgb(201, 201, 201) 0px, transparent 0);
+    }
+
     .testimonial-content {
         box-shadow: 0px 10px 10px rgb(0, 0, 0);
     }

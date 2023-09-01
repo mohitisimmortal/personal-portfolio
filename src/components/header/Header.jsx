@@ -1,17 +1,15 @@
 // Header.jsx
 import React from 'react';
 import './Header.css';
-import { useRecoilValue } from 'recoil';
-import { logoColorState } from '../../atom';
 
 function Header() {
-  const logoColor = useRecoilValue(logoColorState);
+
   return (
     <header id="header">
       <nav>
         <ul>
           <li>
-            <a href="#" className={`logo josefin-font ${logoColor}`}>
+            <a href="#" className={`logo josefin-font`}>
               Last dev.
             </a>
           </li>
