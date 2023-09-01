@@ -1,44 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Homepage.css';
 import About from '../about/About';
 import Project from '../projects/Project';
 import Casual from '../casual/Casual';
 import Contact from '../contact/Contact';
-import { useRecoilState } from 'recoil';
-import { logoColorState } from '../../atom';
+import Testimonials from '../testimonials/Testimonials';
 
 function Homepage() {
-    const [logoColor, setLogoColor] = useRecoilState(logoColorState);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const homepageOffset = document.getElementById('homepage').offsetTop;
-            const aboutOffset = document.getElementById('about').offsetTop;
-            const projectOffset = document.getElementById('projects').offsetTop;
-            const casualOffset = document.getElementById('casual').offsetTop;
-            const contactOffset = document.getElementById('contact').offsetTop;
-
-            const scrollPosition = window.scrollY;
-
-            if (scrollPosition >= homepageOffset && scrollPosition < aboutOffset) {
-                setLogoColor('black-logo');
-            } else if (scrollPosition >= aboutOffset && scrollPosition < projectOffset) {
-                setLogoColor('white-logo');
-            } else if (scrollPosition >= projectOffset && scrollPosition < casualOffset) {
-                setLogoColor('black-logo');
-            } else if (scrollPosition >= casualOffset && scrollPosition < contactOffset) {
-                setLogoColor('white-logo');
-            } else if (scrollPosition >= contactOffset) {
-                setLogoColor('black-logo');
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
     return (
         <>
@@ -53,8 +21,9 @@ function Homepage() {
             </section>
             <About />
             <Project />
-            <Casual />
             <Contact />
+            <Casual />
+            <Testimonials />
         </>
     );
 }

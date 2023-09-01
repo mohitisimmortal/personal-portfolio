@@ -6,6 +6,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 7%;
+    background-image: radial-gradient(rgb(24, 24, 24) 1px, transparent 0);
+    background-size: 40px 40px;
 }
 
 footer p {

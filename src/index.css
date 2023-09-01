@@ -43,6 +43,8 @@ a {
 body {
   min-width: 320px;
   min-height: 100vh;
+  max-width: 1280px;
+  margin-inline: auto;
 }
 
 section {
