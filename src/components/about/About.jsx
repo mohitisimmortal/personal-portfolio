@@ -13,7 +13,7 @@ function About() {
                     Hey there! Welcome to my world of full stack web development powered by MERN Stack!
                     <br />
                     <div>
-                        I'm not just your ordinary developer. I'm a digital architect who crafts captivating web experiences that leave a lasting impression. With over two years of expertise in building stunning and interactive webapps, I thrive on transforming ideas into pixel-perfect reality.
+                        I'm not just your ordinary developer. I'm a digital architect who crafts captivating web experiences that leave a lasting impression. With over one and a half years of expertise in building stunning and interactive webapps, I thrive on transforming ideas into pixel-perfect reality.
                     </div>
                 </div>
                 <div className="large-about-2">
