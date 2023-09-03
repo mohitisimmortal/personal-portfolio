@@ -63,7 +63,7 @@ function Project() {
                     </div>
 
                     <div className="project-image">
-                        <img src={im2} alt="image" />
+                        <img src={im3} alt="image" />
                     </div>
                 </div>
 
@@ -91,7 +91,7 @@ function Project() {
                     </div>
 
                     <div className="project-image">
-                        <img src={im3} alt="image" />
+                        <img src={im2} alt="image" />
                     </div>
                 </div>
             </div>
