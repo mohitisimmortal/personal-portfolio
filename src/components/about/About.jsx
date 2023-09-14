@@ -10,7 +10,7 @@ function About() {
             <div className="about-content">
                 <p className="small-about black">Mohit ( last dev - studio name )</p>
                 <div className="large-about-1">
-                    Hey there! Welcome to my world of full stack web development powered by MERN Stack!
+                    Hey there! Welcome to my world of full stack web development powered by <span style={{ fontWeight: '500' }}>MERN Stack!</span>
                     <br />
                     <div>
                         I'm not just your ordinary developer. I'm a digital architect who crafts captivating web experiences that leave a lasting impression. With over one and a half years of expertise in building stunning and interactive webapps, I thrive on transforming ideas into pixel-perfect reality.
@@ -24,6 +24,7 @@ function About() {
                     <h3>My Superpowers</h3>
                     <ul>
                         <li><span>Creativity :</span> I live and breathe creativity. I don't just build websites, I design immersive online experiences that engage and delight users.</li>
+                        <li><span>AI Proficiency :</span> I possess a strong command of AI tools and techniques, including ChatGPT, Bard, and other state-of-the-art models. I leverage these AI capabilities by using prompts effectively to expedite tasks and achieve fast & accurate results.</li>
                         <li><span>Attention to Detail :</span> Every pixel matters to me. I obsess over the fine details to ensure your website is nothing short of perfection.</li>
                         <li><span>Collaboration :</span> I love working in a dynamic and collaborative environment. I thrive on exchanging ideas, brainstorming, and bringing concepts to life as part of a team.</li>
                     </ul>
