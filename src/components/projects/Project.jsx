@@ -77,15 +77,15 @@ function Project() {
                             <p>Stack- MERN</p>
                             <p>Frontend Library- React</p>
                             <p>State Management Library- Recoil</p>
-                            <p>Programming Language- TypeScript</p>
+                            <p>Programming Language- JavaScript</p>
                         </div>
 
                         <div className="project-content-2">
                             <div>
-                                <a href="#" className='button'>coming soon</a>
+                                <a href="https://etherwatches.vercel.app/" className='button' target='_blank'>visit the webapp</a>
                             </div>
                             <div>
-                                {/* <a href="#" className='button' target='_blank'>see the code</a> */}
+                                <a href="https://github.com/last-developer/ether-watches" className='button' target='_blank'>see the code</a>
                             </div>
                         </div>
                     </div>
