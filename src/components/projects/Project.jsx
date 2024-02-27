@@ -2,7 +2,7 @@ import React from 'react'
 import './Project.css'
 import im1 from '../../assets/im1.png'
 import im2 from '../../assets/im2.png'
-import kickcase from '../../assets/kickcase.png'
+import kickcase from '../../assets/Kickcase.png'
 
 function Project() {
     return (
