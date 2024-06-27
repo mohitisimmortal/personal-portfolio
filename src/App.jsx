@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/header/Header';
 import Homepage from './components/homepage/Homepage';
 import Footer from './components/footer/Footer';
-import Resume from './components/resume/resume';
+import Resume from './components/Resume';
 
 function App() {
   const pathname = window.location.pathname;
