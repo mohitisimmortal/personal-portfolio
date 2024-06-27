@@ -6,9 +6,7 @@ function Casual() {
     <section className="casual" id='casual'>
       <div className="numbers">04 <span>Casual me</span></div>
       <div className="casual-content">
-        Mern and I are a <span>dynamic duo</span> .
-        <br />
-        We make <span>magic together </span>!
+      Working on harnessing <span>Deep Work</span>
       </div>
     </section>
   )
