@@ -10,7 +10,7 @@ function Header() {
         <ul>
           <li>
             <a href="#" className={`logo josefin-font`}>
-              Last dev.
+              Mohit P.
             </a>
           </li>
           <li>

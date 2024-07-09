@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer>
-            <p>Last dev.</p>
+            <p>Mohit P.</p>
             <p>2023.</p>
         </footer>
     )

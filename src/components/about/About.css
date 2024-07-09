@@ -7,12 +7,6 @@
     color: black;
 }
 
-.small-about {
-    font-size: .9rem;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.6);
-}
-
 .large-about-1 {
     margin-top: var(--margin-content-top);
     margin-bottom: 2rem;
@@ -20,7 +14,6 @@
 
 .large-about-1 div {
     color: black;
-    margin-top: .3rem;
 }
 
 .large-about-2 {
