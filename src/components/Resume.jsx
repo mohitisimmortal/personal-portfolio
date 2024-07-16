@@ -5,7 +5,7 @@ const Resume = () => {
         <section style={{ padding: '0px' }}>
             <div className="resume-content">
                 <iframe
-                    src="/MohitResume.pdf"
+                    src="/Mohit_Resume.pdf"
                     title="Resume"
                     width="100%"
                     height="600px"
