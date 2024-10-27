@@ -36,23 +36,23 @@ export default function Home() {
 
       {isWeb3 ? (
         <p className="text-white font-light sm:text-lg md:text-2xl">
-          Solidity, Ethereum, Chainlink, Hardhat
+          Solidity, Ethereum, Chainlink Oracles, 
           <br />
-          Ethers.js, Web3.js, Security Audits,
+          Ethers.js, Hardhat, Foundry,
           <br />
-          Redux, Recoil, Git, TailwindCSS,
+          Next.js, React.js, Recoil,
           <br />
-          Next.js, React.js, JavaScript
+          JavaScript, TypeScript
         </p>
       ) : (
         <p className="text-white font-light sm:text-lg md:text-2xl">
           Next.js, React.js, Express.js, Node.js,
           <br />
-          PostgreSQL, MongoDB, PrismaORM,
+          MongoDB, Recoil, Git, TailwindCSS,
           <br />
-          Redux, Recoil, Git, TailwindCSS,
+          JavaScript, TypeScript
           <br />
-          HTML, CSS, JavaScript
+          HTML, CSS
         </p>
       )}
 
