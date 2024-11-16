@@ -1,11 +1,28 @@
 // 'use client';
-import { StarFilledIcon} from '@radix-ui/react-icons';
+import { StarFilledIcon } from '@radix-ui/react-icons';
 import React from 'react';
 
 const Web2Projects = () => {
     return (
         <>
             {/* project-1 */}
+            <div className=" relative mb-5 project p-4 md:px-6 md:py-6  border rounded-lg border-[#989898] sm:max-w-[375px] md:text-2xl md:max-w-[500px] xl:max-w-[700px]">
+                <div className="absolute right-2 sm:right-4 flex items-center text-xs sm:text-sm bg-red-700 text-white px-2 py-1 rounded-md">
+                    AI SaaS Landing Page
+                </div>
+                <h3 className="text-white text-xl sm:text-2xl md:text-3xl xl:text-4xl">
+                    GatherDocAI
+                </h3>
+                <p className="text-sm mb-4 md:text-lg md:mb-6 xl:text-xl xl:mb-10">AI SaaS for One-Click codebase documentation</p>
+                <p>-Next.js Framework</p>
+                <p>-TypeScript</p>
+                <p>-Aceternity UI library</p>
+                <p className="mb-2 md:mb-5 xl:mb-8">-Custom event instead of prop-drilling</p>
+                <a href="https://gatherdocai.vercel.app/" target="_blank" className="px-3 py-1 text-base md:text-xl border rounded-lg mr-2 hover:bg-white hover:text-black border-[#989898]">Live -{">"} </a>
+                <a href="https://github.com/mohitisimmortal/GatherDocAi" target="_blank" className="px-3 py-1 text-base md:text-xl border rounded-lg hover:bg-white hover:text-black border-[#989898]">Code -{">"} </a>
+            </div>
+
+            {/* project-2 */}
             <div className=" relative mb-5 project p-4 md:px-6 md:py-6  border rounded-lg border-[#989898] sm:max-w-[375px] md:text-2xl md:max-w-[500px] xl:max-w-[700px]">
                 <div className="absolute right-2 sm:right-4 flex items-center text-xs sm:text-sm bg-red-700 text-white px-2 py-1 rounded-md">
                     Frontend Only
@@ -21,7 +38,7 @@ const Web2Projects = () => {
                 <a href="https://github.com/mohitisimmortal/immortal-studio" target="_blank" className="px-3 py-1 text-base md:text-xl border rounded-lg hover:bg-white hover:text-black border-[#989898]">Code -{">"} </a>
             </div>
 
-            {/* project-2 */}
+            {/* project-3 */}
             <div className="relative mb-5 project p-4 md:px-6 md:py-6  border rounded-lg border-[#989898] sm:max-w-[375px] md:text-2xl md:max-w-[500px] xl:max-w-[700px]">
                 <div className="absolute right-2 sm:right-4 flex items-center text-xs sm:text-sm bg-red-700 text-white px-2 py-1 rounded-md">
                     <StarFilledIcon className="h-4 w-4 mr-1" />
@@ -39,7 +56,7 @@ const Web2Projects = () => {
                 <a href="https://github.com/mohitisimmortal/fusion-courses" target="_blank" className="px-3 py-1 text-base md:text-xl border rounded-lg hover:bg-white hover:text-black border-[#989898]">Code -{">"} </a>
             </div>
 
-            {/* project-3 */}
+            {/* project-4 */}
             <div className="relative mb-5 project p-4 md:px-6 md:py-6  border rounded-lg border-[#989898] sm:max-w-[375px] md:text-2xl md:max-w-[500px] xl:max-w-[700px]">
                 <div className="absolute right-2 sm:right-4 flex items-center text-xs sm:text-sm bg-red-700 text-white px-2 py-1 rounded-md">
                     <StarFilledIcon className="h-4 w-4 mr-1" ></StarFilledIcon>
